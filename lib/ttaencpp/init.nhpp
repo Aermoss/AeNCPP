@@ -1,0 +1,11 @@
+func resize(var cols, var lines) {
+    system("mode con:cols=" + cols + " lines=" + lines)
+}
+
+func set_title(var title) {
+    system("title " + title)
+}
+
+func getch() {
+    system("C:\\AeNCPP\\lib\\ttaencpp\\ttaencpp.exe")
+}

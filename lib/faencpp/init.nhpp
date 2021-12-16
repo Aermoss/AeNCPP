@@ -1,0 +1,19 @@
+include "C:\\AeNCPP\\lib\\faencpp\\faencpp.dll"
+
+func connect(var a) {
+    void faencpp.connect(a)
+}
+
+func disconnect() {
+    void faencpp.disconnect()
+}
+
+func write(var a, var b) {
+    void faencpp.connect(a)
+    void faencpp.write(b)
+    void faencpp.disconnect()
+}
+
+func read(var a) {
+    return system("C:\\AeNCPP\\lib\\faencpp\\faencpp.exe " + a)
+}

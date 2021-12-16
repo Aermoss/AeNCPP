@@ -1,0 +1,7 @@
+func time() {
+    return system("C:\\AeNCPP\\lib\\datetime\\datetime.exe --time")
+}
+
+func date() {
+    return system("C:\\AeNCPP\\lib\\datetime\\datetime.exe --date")
+}

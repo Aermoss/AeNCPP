@@ -1,0 +1,15 @@
+func replace(var s, var char, var replace_char) {
+    var result = ""
+
+    for (var i in s) {
+        if (i == char) {
+            result = (result + replace_char)
+        } 
+        
+        else {
+            result = (result + i)
+        }
+    }
+
+    return (result)
+}

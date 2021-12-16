@@ -1,0 +1,3 @@
+include "ioaencpp"
+
+ioaenc.input("Hello, World")

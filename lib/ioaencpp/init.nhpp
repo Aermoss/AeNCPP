@@ -1,0 +1,10 @@
+include "C:\\AeNCPP\\lib\\ioaencpp\\ioaencpp.dll"
+
+func print(var a) {
+    void ioaencpp.print(a)
+}
+
+func input(var a) {
+    system("C:\\AeNCPP\\lib\\ioaencpp\\ioaencpp.exe print \q" + a + "\q")
+    return system("C:\\AeNCPP\\lib\\ioaencpp\\ioaencpp.exe input")
+}
